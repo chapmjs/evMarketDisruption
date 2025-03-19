@@ -770,7 +770,8 @@ if __name__ == "__main__":
     results = model.run_full_simulation()
     
     # Show plots
-    plt.show()return fig
+    plt.show()
+    return fig
     
     def plot_market_share_evolution(self):
         """Plot the evolution of market share between ICE and EV"""
