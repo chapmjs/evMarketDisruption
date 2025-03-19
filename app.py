@@ -7,10 +7,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import seaborn as sns
 
-# Paste the entire EVMarketDisruptionModel class here
-# -----------------------------------------------------
-# (Copy the complete EVMarketDisruptionModel class from ev_market_model.py)
-# -----------------------------------------------------
+from ev_market_model import EVMarketDisruptionModel
 
 # Set page configuration
 st.set_page_config(
